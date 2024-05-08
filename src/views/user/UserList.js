@@ -51,7 +51,7 @@ function UserList(){
     }
 
     function handleChangePerPage(event){
-
+        setPerPage(event.target.value);
     }
 
     return(
